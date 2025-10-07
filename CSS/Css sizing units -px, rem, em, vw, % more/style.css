@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 12px;
+}
+.boxed {
+  box-sizing: border-box;
+  border: 2px solod black;
+  width: 80vw;
+  background-color: aquamarine;
+  margin: auto;
+  height: 10vh;
+}
+.container {
+  box-sizing: border-box;
+  border: 2px solod black;
+  width: 80vw;
+  background-color: aquamarine;
+  margin: 23px auto;
+  height: 90vh;
+  font-size: 18px;
+}
+.container p { 
+  font-size: 2em;
+}

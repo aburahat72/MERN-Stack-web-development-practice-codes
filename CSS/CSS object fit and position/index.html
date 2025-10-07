@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css 0bject property</title>
+    <style>
+      .container {
+        border: 2px solid black;
+        background-image: url(https://plus.unsplash.com/premium_photo-1681426687411-21986b0626a8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-color: aqua;
+        height: 80vh;
+        width: 90vw;
+        background-clip: border-box;
+
+        /* background-repeat: no-repeat; */
+        /* The background image all property should apply here in container */
+      }
+      .container img {
+        height: 350px;
+        width: 400px;
+        /* object-fit: contain; */
+        object-fit: cover;
+        /* object-position: left top; */
+        object-position: 50% 50%;
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <img
+        src="https://www.wscubetech.com/blog/wp-content/uploads/2024/04/new-technology-trends.webp"
+        alt="techimage"
+      /> -->
+    </div>
+  </body>
+</html>

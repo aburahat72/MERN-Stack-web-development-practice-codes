@@ -1,0 +1,27 @@
+body {
+  background-color: aquamarine;
+}
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: red;
+  }
+  .boxes{
+    flex-direction: column;
+  }
+  @media screen and (orientation: portrait) {
+    body{
+      border: 2px solid black;
+    }
+    
+  }
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  padding: 3px;
+  margin: 3px;
+}
+.boxes{
+  display: flex;
+}

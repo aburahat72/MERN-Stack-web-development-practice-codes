@@ -1,0 +1,23 @@
+.container {
+  width: 97vw;
+  height: 550px;
+  border: 2px solid red;
+}
+.box {
+  border: 4px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+  background-color: beige;
+  /* transform: rotate(40deg); it will rotate the box in 40 degree */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* transform: rotate(0.25turn); the one turn is 360 degree and 0.25 degree turn is 90 degree */
+   /* transform: rotateY(40deg); it will rotate the X and Y degree */
+   /* transform: scale(1.6); The size will be larger */
+   /* transform: scaleX(1.2); it will work only in x axis */
+   /* transform: translate(34px); it will change the places */
+   /* transform: translateY(100%) skewX(40deg) translate(45%);The multiple property csn set in one statement */
+   
+}

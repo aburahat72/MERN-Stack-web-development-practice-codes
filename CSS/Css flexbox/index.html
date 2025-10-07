@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css flexbox</title>
+    <style>
+      .containeritm {
+        display: flex;
+        /* The above property make the content flex */
+        /* justify-content: center; */
+        /* The above property make the items in center horizontally */
+        align-items: center;
+        /* The above property make the content in center vertically it is best for single line */
+        /* flex-direction: column; */
+        /* The above property makes the code vertically main axis */
+        /* if we use column reverse items box will be inverted */
+        /* flex-wrap: nowrap; */
+        /* This above code make the content to flow in the next line  with overflow and hidden*/
+        /* align-content: center; */
+        /* If we have more than one lines or multiple lines of items  we use this property */
+        /* flex-flow: row; */
+        /* The above property make the items in column  position and row property makes the position of horizontally it will apply on the box */
+        margin: 10px;
+        width: 1300px;
+        /* height: 600px; */
+        height: 80vh;
+        border: 2px solid black;
+      }
+      .item {
+        /* flex-grow: 1; */
+        /* The above property distributed the same width to all the box */
+        background-color: green;
+        margin: 5px;
+        color: white;
+        height: 80px;
+        width: 80px;
+        border: 2px solid black;
+      }
+      .order-1 {
+        order: 1;
+      }
+      .it {
+        /* flex-shrink: 20; This shrink property is used to reduce the size of set items when screen scroll to small */
+
+        /* flex-grow: 3; */
+        /* The above property makes this particular items 2x , 3x ,4x it will increase the size double triple etc */
+        align-self: flex-start;
+      }
+      .ittl {
+        align-self: flex-end;
+        /* This above property makes the items placed into particular space start places or end places */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containeritm">
+      <div class="item it"></div>
+      <div class="item">2</div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item order-1">100</div>
+      <div class="item"></div>
+      <div class="item items3">Abu</div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+
+      <div class="item ittl"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+:root{
+    --seccolor:green;
+    --color:red;
+    /* declaring the values */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div ul {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    /* list-style-position: inside; */
+    display: flex;
+}
+div ul li:first-child{
+    --color:rgb(70, 158, 32);
+    background-color: var(--color);
+}
+div ul li {
+    background-color: var(--color , blue);
+    margin: 5px;
+    padding: 2px;
+
+}
+
+div p {
+    background-color: var(--seccolor);
+    /* initilazing the values */
+}

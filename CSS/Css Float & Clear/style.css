@@ -1,0 +1,14 @@
+img{
+    float: left;
+}
+.card{
+       border: 2px solid red;
+}
+.cards{
+    border: 4px solid blue;
+    display: flow-root;
+}
+.card:nth-child(3){
+    background-color: aqua;
+    clear: both;
+}

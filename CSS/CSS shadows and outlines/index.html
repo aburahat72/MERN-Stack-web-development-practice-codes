@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css shadows and outlines</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .boxed {
+        outline: 3px solid black;
+        outline-offset: 8px;
+        /* The upper code of css portion of outlines D/bw border and outlines  */
+        padding: 20px;
+        margin: 20px;
+        display: inline-flex;
+        justify-content: center;
+        height: 20vh;
+        width: 100vw;
+        border: 2px solid green;
+        box-shadow: 2px 2px 15px #e0101057;
+        align-items: center; /* this property is used to text align in center in box */
+      }
+      .txtshd{
+        text-shadow: 2px 2px 4px #0ae448d2;
+      }
+
+
+      /*.para{
+        align-content: center;
+       } */
+    </style>
+  </head>
+  <body>
+    <div class="boxed">iam the box</div>
+    <p class="txtshd">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+      necessitatibus qui itaque facere deserunt possimus similique officia
+      consequatur sit quaerat adipisci quis quidem, nisi ipsum?
+    </p>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More on selectors</title>
+    <style>
+      /* .box:first-child {
+        background-color: red;
+      }  the css will applied the first box 1 not other class */
+      /* .boxes::first-line{
+            color: yellowgreen;
+        } */
+      /* .boxes *{
+            color: red;
+            border: 1px solid black;
+         }
+          /* refers as universal selectors */
+      /* p, a, .box, [data-color = "primary"] {
+            margin-top: 45px;
+          }
+           If data color is primary the css rule will applied */
+
+      /* .box:nth-child(odd) {
+            background-color: blueviolet;
+            The css rule will applied as the series of odd and css rule will applied in selected div of children
+           } */
+
+      /* .box:nth-last-child(1){
+            background-color: black;
+            The sequence start from last
+           } */
+      /* .boxes::before{
+                content: "Abu rahat";
+                color: green;
+            }
+            .boxes::after{
+                content: "Barbhuiya";
+                color: red;
+                The both selectors are using to add content dynamically using css
+            } */
+      /* ::selection{
+                background-color: aqua;
+                color: teal;
+             } */
+      /* .box::first-letter{
+                font: 20px;
+                border: 2px solid black;
+              } */
+               input::placeholder{
+                color: blue;
+               }
+
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div data-color="primary" class="box">iam the first div</div>
+      <div class="box">Hey iam the second box</div>
+      <div class="box">hey iam the third box</div>
+    </div>
+    <div>
+        <input type="text" placeholder="username">
+    </div>
+  </body>
+</html>
