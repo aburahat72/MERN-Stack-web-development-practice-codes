@@ -1,0 +1,11 @@
+.box{
+    height: 150px;
+    width: 200px;
+    border: 2px dotted black;
+    outline: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
