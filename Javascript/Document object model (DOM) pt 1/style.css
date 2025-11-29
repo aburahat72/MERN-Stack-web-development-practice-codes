@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+button {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+body {
+  background-color: aquamarine;
+}
+div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#roll{
+  background-color: red;
+}
