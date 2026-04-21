@@ -1,0 +1,7 @@
+button{
+    background-color: aqua;
+    border: 1px solid green;
+}
+button:hover{
+    background-color: red;
+}
