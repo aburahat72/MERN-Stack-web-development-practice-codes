@@ -1,0 +1,20 @@
+{
+  "name": "slugifytesting",
+  "version": "1.0.0",
+  "description": "The is the slugify modules",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "slugify",
+    "package"
+  ],
+  "author": "Abu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "slugify": "^1.6.9"
+  }
+}
